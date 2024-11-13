@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans:ital,wght@0,500;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans:ital,wght@0,500;1,500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans:ital,wght@0,500;1,500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    height: 100vh;
+    display: flex;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background-color: #7AB2D3;
+}
+#main-doc{
+    display: flex;
+    width: 100%;
+}
+
+.nav-title, .title{
+    font-weight: 900;
+    font-size: 40px;
+    color: #DFF2EB;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+}
+li{
+    list-style: none;
+    margin:15px ;
+}
+.sidebar{
+    background: #4A628A;
+    height: 100%;
+    width: 230px;
+    margin: 0;
+    overflow-y: auto;
+    position: fixed;
+}
+#main-section{
+    flex: 1;
+    padding: 20px;
+    margin-left: 250px;
+
+}
+nav a{
+    display: block;
+    text-decoration: none;
+    color: #DFF2EB;
+    font-family: sans-serif;
+    font-weight: 500;
+    padding: 10px;
+    transition: 0.1s 0.1s;
+    background: #0a1831;
+    border-radius: 5px;
+    
+}
+a:hover{
+    background: rgba(255, 255, 255, 0.1);
+    color: #88a6db;
+}
+
+.title{
+    color: #1E3E62;
+    text-align: center;
+}
+
+#javacode, #javascript_code{
+    background-color: #e0f7fa;
+    border: 1px solid #000;
+    border-radius: 25px;
+    padding: 10px;
+    overflow-x: auto;
+    font-family: monospace;
+    white-space: pre-wrap;
+}
+
+ul.key_f{
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+li .key_tures{
+    margin-bottom: 10px;
+    line-height: 1.5;
+    color: #fff;
+}
+.nav-links{
+    align-items: center;
+}
+@media (max-width: 780px){
+    .sidebar{
+        width:100%;
+        float: auto;
+    }
+}
